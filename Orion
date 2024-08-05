@@ -305,7 +305,7 @@ CreateElement("Button", function()
 	local Button = Create("TextButton", {
 		Text = "",
 		AutoButtonColor = false,
-		BackgroundTransparency = 0.111
+		BackgroundTransparency = 0.111,
 		BorderSizePixel = 0
 	})
 	return Button
