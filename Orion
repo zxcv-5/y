@@ -273,7 +273,7 @@ end)
 
 CreateElement("TFrame", function()
 	local TFrame = Create("Frame", {
-		BackgroundTransparency = 1
+		BackgroundTransparency = 0
 	})
 	return TFrame
 end)
@@ -286,7 +286,7 @@ CreateElement("Frame", function(Color)
 		},{
 		Create("ImageLabel",{
 		    BackgroundTransparency = 1,
-		    Image = loadstring(game:HttpGet("https://raw.githubusercontent.com/ginchao/Discord-Lib/main/Anh"))() 
+		    Image = "rbxassetid://18273718657"
 		})
 	})
 	return Frame
@@ -295,7 +295,7 @@ end)
 CreateElement("RoundFrame", function(Color, Scale, Offset)
 	local Frame = Create("Frame", {
 		BackgroundColor3 = Color or Color3.fromRGB(0, 0, 0),
-		BackgroundTransparency = 1,
+		BackgroundTransparency = 0,
 		
 		BorderSizePixel = 0
 	}, {
