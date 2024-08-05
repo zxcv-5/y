@@ -273,18 +273,17 @@ end)
 
 CreateElement("TFrame", function()
 	local TFrame = Create("Frame", {
-		BackgroundTransparency = 0.11
+		BackgroundTransparency = 0.111
 	})
 	return TFrame
 end)
 
 CreateElement("Frame", function(Color)
-    local gai = loadstring(game:HttpGet("https://raw.githubusercontent.com/ginchao/Discord-Lib/main/Anh"))()
 	local Frame = Create("Frame", {
 		BackgroundColor3 = Color or Color3.fromRGB(255, 255, 255),
 		BorderSizePixel = 0,
 		BackgroundTransparency = 1,
-		Image = gai
+		Image = loadstring(game:HttpGet("https://raw.githubusercontent.com/ginchao/Discord-Lib/main/Anh"))()
 	})
 	return Frame
 end)
