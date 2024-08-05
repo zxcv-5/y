@@ -282,10 +282,10 @@ CreateElement("Frame", function(Color)
 	local Frame = Create("Frame", {
 		BackgroundColor3 = Color or Color3.fromRGB(255, 255, 255),
 		BorderSizePixel = 0,
-		BackgroundTransparency = 1,
+		BackgroundTransparency = 10,
 		},{
 		Create("ImageLabel",{
-		    BackgroundTransparency = 1,
+		    BackgroundTransparency = 10,
 		    Image = "rbxassetid://18273718657"
 		})
 	})
@@ -295,7 +295,7 @@ end)
 CreateElement("RoundFrame", function(Color, Scale, Offset)
 	local Frame = Create("Frame", {
 		BackgroundColor3 = Color or Color3.fromRGB(0, 0, 0),
-		BackgroundTransparency = 0,
+		BackgroundTransparency = 10,
 		
 		BorderSizePixel = 0
 	}, {
