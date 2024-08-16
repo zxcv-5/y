@@ -304,7 +304,7 @@ end)
 CreateElement("RoundFrame", function(Color, Scale, Offset)
     local Frame = Create("Frame", {
         BackgroundColor3 = Color or Color3.fromRGB(0, 0, 0),
-        BackgroundTransparency = 0,
+ 
 
         BorderSizePixel = 0
     }, {
