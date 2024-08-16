@@ -292,7 +292,7 @@ CreateElement("Frame", function()
     }, {
         Create("ImageLabel", {
             BackgroundTransparency = 1,
-            Image = "rbxassetid://<18273718657>",
+            Image = "rbxassetid://18273718657",
             Size = UDim2.new(1, 0, 1, 0),
             ZIndex = 0,
             Parent = Frame
