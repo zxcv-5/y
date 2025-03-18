@@ -30,7 +30,7 @@ local OrionLib = {
 local Icons = {}
 
 local Success, Response = pcall(function()
-	Icons = nil
+	Icons = {}
 end)
 
 if not Success then
